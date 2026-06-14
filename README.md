@@ -19,8 +19,8 @@ By capturing the RAM state alongside the disk state, this script ensures that cr
 1. Clone the repository.
 2. Install required Python packages:
    ```bash
-pip install requests urllib3
-
+pip install requests urllib3 
+   ```bash
 
 Edit proxmox_auto_snapshot.py and configure the following parameters (or pass them via Environment Variables for production security):
 host: Your Proxmox IP/Hostname.
