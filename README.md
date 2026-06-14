@@ -20,12 +20,11 @@ By capturing the RAM state alongside the disk state, this script ensures that cr
 2. Install required Python packages:
    ```bash
    pip install requests urllib3 
-
-Edit proxmox_auto_snapshot.py and configure the following parameters (or pass them via Environment Variables for production security):
+3. Edit proxmox_auto_snapshot.py and configure the following parameters (or pass them via Environment Variables for production security):
 host: Your Proxmox IP/Hostname.
 user: Your Proxmox API user (e.g., root@pam).
 password: The corresponding password or API token.
 
-Usage
+## Usage
 Run the script to trigger a snapshot for a specific VM ID:
 python proxmox_auto_snapshot.py
